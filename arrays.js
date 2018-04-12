@@ -4,9 +4,7 @@ function addElementToBeginningOfArray(a,element){
       return  a=[element,...a];
 }
 function destructivelyAddElementToBeginningOfArray(a,element){
-  return a.unshift(element);
+  a.unshift(element);
+  return a;
 }
 
-destructivelyAddElementToBeginningOfArray(chocolateBars,"nasha");
-chocolateBars=addElementToBeginningOfArray(chocolateBars,"tob");
-console.log(chocolateBars);
