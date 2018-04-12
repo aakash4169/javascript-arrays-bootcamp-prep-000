@@ -18,5 +18,6 @@ function destructivelyAddElementToEndOfArray(a,element){
   return a;
 }
 
+function 
 addElementToEndOfArray(chocolateBars,"tob");
 console.log(chocolateBars);
