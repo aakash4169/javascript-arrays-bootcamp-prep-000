@@ -8,5 +8,9 @@ function destructivelyAddElementToBeginningOfArray(a,element){
   return a;
 }
 
+function addElementToEndOfArray(a,element){
+  a.push(element);
+  return a;
+}
 function 
 
