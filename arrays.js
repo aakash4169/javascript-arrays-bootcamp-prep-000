@@ -15,6 +15,7 @@ function addElementToEndOfArray(a,element){
 function destructivelyAddElementToEndOfArray(a,element){
   a=[...a,element];
   return a;
-
 }
 
+addElementToEndOfArray(chocolateBars,"tob");
+console.log(chocolateBars);
