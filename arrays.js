@@ -35,5 +35,6 @@ function destructivelyRemoveElementFromEndOfArray(a){
   a.pop();
   return a;
 }
+function 
 addElementToEndOfArray(chocolateBars,"tob");
 console.log(chocolateBars);
