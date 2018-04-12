@@ -22,5 +22,8 @@ function accessElementInArray(a,index){
   return a[index];
   
 }
+function destructivelyRemoveElementFromBeginningOfArray(a){
+  a.unshift();
+}
 addElementToEndOfArray(chocolateBars,"tob");
 console.log(chocolateBars);
