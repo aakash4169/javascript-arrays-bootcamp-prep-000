@@ -8,4 +8,5 @@ function destructivelyAddElementToBeginningOfArray(a,element){
 }
 
 
+chocolateBars=addElementToBeginningOfArray(chocolateBars,"tob");
 console.log(chocolateBars);
