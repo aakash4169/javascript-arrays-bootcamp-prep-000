@@ -31,6 +31,9 @@ function removeElementFromBeginningOfArray(a){
   a=a.slice(1);
   return a;
 }
-function 
+function destructivelyRemoveElementFromEndOfArray(a){
+  a.pop();
+  return a;
+}
 addElementToEndOfArray(chocolateBars,"tob");
 console.log(chocolateBars);
